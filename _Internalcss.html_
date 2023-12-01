@@ -1,0 +1,14 @@
+<html>
+<head>
+<title>Internal CSS</title>
+	<style>
+	    h1{color:Blue;margin-left:20px;}
+	</style>
+</head>
+<body>
+<h1> Internal CSS </h1>
+<p3>The internal style sheet is used to add a unique style for a single document. It is defined in <head> section of the HTML page inside the <style> tag.
+
+</p3>
+</body>
+</html>

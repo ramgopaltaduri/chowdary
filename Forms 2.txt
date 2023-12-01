@@ -1,0 +1,59 @@
+<html>
+<head>
+    <title>Webpage with multiple forms</title>
+    <style>
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .form {
+            width: 80%;
+            margin: 20px;
+            border: 1px solid black;
+            padding: 10px;
+        }
+        .form h2 {
+            text-align: center;
+        }
+        .form ul {
+            list-style-type: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="form">
+            <h2>Notifications</h2>
+            <ul>
+                <li><input type="checkbox" name="notification1" id="notification1"><label for="notification1">You have a new assignment due on Monday</label></li>
+                <li><input type="checkbox" name="notification2" id="notification2"><label for="notification2">Your midterm exam is scheduled on Wednesday</label></li>
+                <li><input type="checkbox" name="notification3" id="notification3"><label for="notification3">Your attendance is below the required percentage</label></li>
+                <li><input type="checkbox" name="notification4" id="notification4"><label for="notification4">You have received a scholarship from the college</label></li>
+            </ul>
+        </div>
+        <div class="form">
+            <h2>Fees Payment</h2>
+            <p>Please click on the links below to pay your fees online:</p>
+            <ul>
+                <li><a href="#">Tuition Fees</a></li>
+                <li><a href="#">Hostel Fees</a></li>
+                <li><a href="#">Transportation Fees</a></li>
+                <li><a href="#">Library Fees</a></li>
+            </ul>
+        </div>
+        <div class="form">
+            <h2>About the Branch</h2>
+            <p>You are enrolled in the Computer Science and Engineering branch of the college. Here are some details about your branch:</p>
+            <ul>
+                <li>The branch was established in 1998 and has been producing quality engineers ever since.</li>
+                <li>The branch has a faculty strength of 25, with expertise in various domains such as artificial intelligence, machine learning, data science, software engineering, etc.</li>
+                <li>The branch has a well-equipped laboratory with state-of-the-art computers and software tools.</li>
+                <li>The branch offers various electives and projects for students to enhance their skills and knowledge.</li>
+                <li>The branch has a strong alumni network and placement record, with many students working in reputed companies such as Microsoft, Google, Amazon, etc.</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
+

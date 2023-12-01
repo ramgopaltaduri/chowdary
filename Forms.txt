@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Multiple Forms</title>
+</head>
+<body>
+  <h1>Multiple Forms</h1>
+
+  <!-- Form 1: List of all notifications of student -->
+  <form action="/notifications" method="post">
+    <h2>Notifications</h2>
+    <ul>
+      <li>You have a new assignment due in 2 days.</li>
+      <li>Your exam results have been published.</li>
+      <li>You have a meeting with your advisor tomorrow.</li>
+    </ul>
+  </form>
+
+  <!-- Form 2: Links for fees payment -->
+  <form action="/fees" method="post">
+    <h2>Fees Payment</h2>
+    <ul>
+      <li><a href="/fees/tuition">Tuition</a></li>
+      <li><a href="/fees/hostel">Hostel</a></li>
+      <li><a href="/fees/exam">Exam</a></li>
+    </ul>
+  </form>
+
+  <!-- Form 3: About the branch of the student -->
+  <form action="/branch" method="post">
+    <h2>Branch Information</h2>
+    <p>Your branch is Computer Science Engineering.</p>
+  </form>
+
+</body>
+</html>
